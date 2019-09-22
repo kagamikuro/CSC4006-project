@@ -1,0 +1,1 @@
+running commend:g++ -std=c++11 -I$FF_ROOT -O3 stateful_test.cpp adaptivity.cpp -o stateful_test -pthread

@@ -1,0 +1,96 @@
+hello world!
+worker 0 CPU id: 1
+emitter finish send out tasks
+on 1 thread:
+elapsed wall clock time time: 141389ms.
+elapsed CPU time: 422
+hello world!
+worker 0 CPU id: 4
+worker 1 CPU id: 5
+emitter finish send out tasks
+on 2 thread:
+elapsed wall clock time time: 70901.1ms.
+elapsed CPU time: 282
+hello world!
+worker 0 CPU id: 8
+worker 1 CPU id: 9
+worker 2 CPU id: 10
+worker 3 CPU id: 11
+emitter finish send out tasks
+on 4 thread:
+elapsed wall clock time time: 38143.4ms.
+elapsed CPU time: 226
+hello world!
+worker 0 CPU id: 14
+worker 1 CPU id: 15
+worker 2 CPU id: 16
+worker 3 CPU id: 17
+worker 4 CPU id: 18
+worker 5 CPU id: 19
+worker 6 CPU id: 20
+worker 7 CPU id: 21
+emitter finish send out tasks
+on 8 thread:
+elapsed wall clock time time: 19363.4ms.
+elapsed CPU time: 186
+hello world!
+worker 0 CPU id: 24
+worker 1 CPU id: 25
+worker 2 CPU id: 26
+worker 3 CPU id: 27
+worker 4 CPU id: 28
+worker 5 CPU id: 29
+worker 6 CPU id: 30
+worker 7 CPU id: 31
+worker 8 CPU id: 0
+worker 9 CPU id: 1
+worker 10 CPU id: 2
+worker 11 CPU id: 3
+worker 12 CPU id: 4
+worker 13 CPU id: 5
+worker 14 CPU id: 6
+worker 15 CPU id: 7
+emitter finish send out tasks
+on 16 thread:
+elapsed wall clock time time: 11008.4ms.
+elapsed CPU time: 170
+hello world!
+worker 0 CPU id: 10
+worker 1 CPU id: 11
+worker 2 CPU id: 12
+worker 3 CPU id: 13
+worker 4 CPU id: 14
+worker 5 CPU id: 15
+worker 6 CPU id: 16
+worker 7 CPU id: 17
+worker 8 CPU id: 18
+worker 9 CPU id: 19
+worker 10 CPU id: 20
+worker 11 CPU id: 21
+worker 12 CPU id: 22
+worker 13 CPU id: 23
+worker 14 CPU id: 24
+worker 15 CPU id: 25
+worker 16 CPU id: 26
+worker 17 CPU id: 27
+worker 18 CPU id: 28
+worker 19 CPU id: 29
+worker 20 CPU id: 30
+worker 21 CPU id: 31
+worker 22 CPU id: 0
+worker 23 CPU id: 1
+worker 24 CPU id: 2
+worker 25 CPU id: 3
+worker 26 CPU id: 4
+worker 27 CPU id: 5
+worker 28 CPU id: 6
+worker 29 CPU id: 7
+worker 30 CPU id: 8
+worker 31 CPU id: 9
+emitter finish send out tasks
+on 32 thread:
+elapsed wall clock time time: 11467.1ms.
+elapsed CPU time: 176
+
+
+peng@pianosau:~/project$

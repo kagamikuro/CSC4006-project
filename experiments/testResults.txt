@@ -1,0 +1,537 @@
+
+40120405@ubuntu:~/project$ export FF_ROOT=$HOME/fastflow
+40120405@ubuntu:~/project$ g++ -std=c++11 -I$FF_ROOT -O3 stateExample2.cpp -o state2 -pthread
+40120405@ubuntu:~/project$ vi stateExample2.cpp
+40120405@ubuntu:~/project$ g++ -std=c++11 -I$FF_ROOT -O3 stateExample2.cpp -o state2 -pthread
+40120405@ubuntu:~/project$ ./state2
+the 1 time running:
+experiment 0 with 0% stateful
+on 1 thread:
+elapsed wall clock time time: 286065ms.
+elapsed CPU time: 1144
+on 2 thread:
+elapsed wall clock time time: 145907ms.
+elapsed CPU time: 729
+on 3 thread:
+elapsed wall clock time time: 101465ms.
+elapsed CPU time: 603
+on 4 thread:
+elapsed wall clock time time: 76892.6ms.
+elapsed CPU time: 537
+
+
+experiment 1 with 5% stateful
+on 1 thread:
+elapsed wall clock time time: 281353ms.
+elapsed CPU time: 1579
+on 2 thread:
+elapsed wall clock time time: 158318ms.
+elapsed CPU time: 1047
+on 3 thread:
+elapsed wall clock time time: 119874ms.
+elapsed CPU time: 911
+on 4 thread:
+elapsed wall clock time time: 91466.2ms.
+elapsed CPU time: 712
+
+
+experiment 1 with 10% stateful
+on 1 thread:
+elapsed wall clock time time: 279967ms.
+elapsed CPU time: 1628
+on 2 thread:
+elapsed wall clock time time: 171377ms.
+elapsed CPU time: 1167
+on 3 thread:
+elapsed wall clock time time: 119662ms.
+elapsed CPU time: 938
+on 4 thread:
+elapsed wall clock time time: 118005ms.
+elapsed CPU time: 925
+
+
+experiment 1 with 20% stateful
+on 1 thread:
+elapsed wall clock time time: 282767ms.
+elapsed CPU time: 1673
+on 2 thread:
+elapsed wall clock time time: 174173ms.
+elapsed CPU time: 1207
+on 3 thread:
+elapsed wall clock time time: 174414ms.
+elapsed CPU time: 1376
+on 4 thread:
+elapsed wall clock time time: 120478ms.
+elapsed CPU time: 959
+
+
+experiment 1 with 30% stateful
+on 1 thread:
+elapsed wall clock time time: 282771ms.
+elapsed CPU time: 1690
+on 2 thread:
+elapsed wall clock time time: 193239ms.
+elapsed CPU time: 1343
+on 3 thread:
+elapsed wall clock time time: 197630ms.
+elapsed CPU time: 1566
+on 4 thread:
+elapsed wall clock time time: 195070ms.
+elapsed CPU time: 1547
+
+
+experiment 1 with 40% stateful
+on 1 thread:
+elapsed wall clock time time: 284250ms.
+elapsed CPU time: 1699
+on 2 thread:
+elapsed wall clock time time: 283058ms.
+elapsed CPU time: 1971
+on 3 thread:
+elapsed wall clock time time: 290039ms.
+elapsed CPU time: 2303
+on 4 thread:
+elapsed wall clock time time: 284825ms.
+elapsed CPU time: 2264
+
+
+experiment 1 with 60% stateful
+on 1 thread:
+elapsed wall clock time time: 295526ms.
+elapsed CPU time: 889
+on 2 thread:
+elapsed wall clock time time: 285977ms.
+elapsed CPU time: 1299
+on 3 thread:
+elapsed wall clock time time: 295038ms.
+elapsed CPU time: 907
+on 4 thread:
+elapsed wall clock time time: 288980ms.
+elapsed CPU time: 1202
+
+
+the 2 time running:
+experiment 0 with 0% stateful
+on 1 thread:
+elapsed wall clock time time: 288724ms.
+elapsed CPU time: 1154
+on 2 thread:
+elapsed wall clock time time: 146306ms.
+elapsed CPU time: 731
+on 3 thread:
+elapsed wall clock time time: 102082ms.
+elapsed CPU time: 606
+on 4 thread:
+elapsed wall clock time time: 77673.9ms.
+elapsed CPU time: 543
+
+
+experiment 1 with 5% stateful
+on 1 thread:
+elapsed wall clock time time: 284165ms.
+elapsed CPU time: 1594
+on 2 thread:
+elapsed wall clock time time: 159441ms.
+elapsed CPU time: 1054
+on 3 thread:
+elapsed wall clock time time: 118812ms.
+elapsed CPU time: 902
+on 4 thread:
+elapsed wall clock time time: 91393.7ms.
+elapsed CPU time: 711
+
+
+experiment 1 with 10% stateful
+on 1 thread:
+elapsed wall clock time time: 283342ms.
+elapsed CPU time: 1647
+on 2 thread:
+elapsed wall clock time time: 174312ms.
+elapsed CPU time: 1187
+on 3 thread:
+elapsed wall clock time time: 122108ms.
+elapsed CPU time: 957
+on 4 thread:
+elapsed wall clock time time: 118552ms.
+elapsed CPU time: 928
+
+
+experiment 1 with 20% stateful
+on 1 thread:
+elapsed wall clock time time: 282905ms.
+elapsed CPU time: 1674
+on 2 thread:
+elapsed wall clock time time: 173486ms.
+elapsed CPU time: 1202
+on 3 thread:
+elapsed wall clock time time: 173840ms.
+elapsed CPU time: 1372
+on 4 thread:
+elapsed wall clock time time: 120754ms.
+elapsed CPU time: 962
+
+
+experiment 1 with 30% stateful
+on 1 thread:
+elapsed wall clock time time: 282640ms.
+elapsed CPU time: 1690
+on 2 thread:
+elapsed wall clock time time: 192930ms.
+elapsed CPU time: 1340
+on 3 thread:
+elapsed wall clock time time: 198179ms.
+elapsed CPU time: 1572
+on 4 thread:
+elapsed wall clock time time: 197143ms.
+elapsed CPU time: 1563
+
+
+experiment 1 with 40% stateful
+on 1 thread:
+elapsed wall clock time time: 282836ms.
+elapsed CPU time: 1690
+on 2 thread:
+elapsed wall clock time time: 283279ms.
+elapsed CPU time: 1973
+on 3 thread:
+elapsed wall clock time time: 285138ms.
+elapsed CPU time: 2267
+on 4 thread:
+elapsed wall clock time time: 284738ms.
+elapsed CPU time: 2264
+
+
+experiment 1 with 60% stateful
+on 1 thread:
+elapsed wall clock time time: 289696ms.
+elapsed CPU time: 1131
+on 2 thread:
+elapsed wall clock time time: 286913ms.
+elapsed CPU time: 1268
+on 3 thread:
+elapsed wall clock time time: 293175ms.
+elapsed CPU time: 1005
+on 4 thread:
+elapsed wall clock time time: 289775ms.
+elapsed CPU time: 1169
+
+
+the 3 time running:
+experiment 0 with 0% stateful
+on 1 thread:
+elapsed wall clock time time: 289109ms.
+elapsed CPU time: 1156
+on 2 thread:
+elapsed wall clock time time: 147538ms.
+elapsed CPU time: 737
+on 3 thread:
+elapsed wall clock time time: 102273ms.
+elapsed CPU time: 607
+on 4 thread:
+elapsed wall clock time time: 77910.5ms.
+elapsed CPU time: 543
+
+
+experiment 1 with 5% stateful
+on 1 thread:
+elapsed wall clock time time: 283860ms.
+elapsed CPU time: 1593
+on 2 thread:
+elapsed wall clock time time: 159894ms.
+elapsed CPU time: 1057
+on 3 thread:
+elapsed wall clock time time: 119801ms.
+elapsed CPU time: 910
+on 4 thread:
+elapsed wall clock time time: 92438.9ms.
+elapsed CPU time: 719
+
+
+experiment 1 with 10% stateful
+on 1 thread:
+elapsed wall clock time time: 283268ms.
+elapsed CPU time: 1647
+on 2 thread:
+elapsed wall clock time time: 173508ms.
+elapsed CPU time: 1182
+on 3 thread:
+elapsed wall clock time time: 121385ms.
+elapsed CPU time: 952
+on 4 thread:
+elapsed wall clock time time: 118137ms.
+elapsed CPU time: 926
+
+
+experiment 1 with 20% stateful
+on 1 thread:
+elapsed wall clock time time: 282958ms.
+elapsed CPU time: 1674
+on 2 thread:
+elapsed wall clock time time: 173357ms.
+elapsed CPU time: 1201
+on 3 thread:
+elapsed wall clock time time: 175246ms.
+elapsed CPU time: 1383
+on 4 thread:
+elapsed wall clock time time: 121237ms.
+elapsed CPU time: 965
+
+
+experiment 1 with 30% stateful
+on 1 thread:
+elapsed wall clock time time: 282613ms.
+elapsed CPU time: 1689
+on 2 thread:
+elapsed wall clock time time: 192869ms.
+elapsed CPU time: 1341
+on 3 thread:
+elapsed wall clock time time: 196989ms.
+elapsed CPU time: 1562
+on 4 thread:
+elapsed wall clock time time: 195173ms.
+elapsed CPU time: 1547
+
+
+experiment 1 with 40% stateful
+on 1 thread:
+elapsed wall clock time time: 282763ms.
+elapsed CPU time: 1690
+on 2 thread:
+elapsed wall clock time time: 283279ms.
+elapsed CPU time: 1973
+on 3 thread:
+elapsed wall clock time time: 285984ms.
+elapsed CPU time: 2274
+on 4 thread:
+elapsed wall clock time time: 286358ms.
+elapsed CPU time: 2277
+
+
+experiment 1 with 60% stateful
+on 1 thread:
+elapsed wall clock time time: 289821ms.
+elapsed CPU time: 1123
+on 2 thread:
+elapsed wall clock time time: 286730ms.
+elapsed CPU time: 1279
+on 3 thread:
+elapsed wall clock time time: 291959ms.
+elapsed CPU time: 1060
+on 4 thread:
+elapsed wall clock time time: 292153ms.
+elapsed CPU time: 1033
+
+
+the 4 time running:
+experiment 0 with 0% stateful
+on 1 thread:
+elapsed wall clock time time: 289089ms.
+elapsed CPU time: 1156
+on 2 thread:
+elapsed wall clock time time: 147000ms.
+elapsed CPU time: 734
+on 3 thread:
+elapsed wall clock time time: 102243ms.
+elapsed CPU time: 607
+on 4 thread:
+elapsed wall clock time time: 77774ms.
+elapsed CPU time: 543
+
+
+experiment 1 with 5% stateful
+on 1 thread:
+elapsed wall clock time time: 288466ms.
+elapsed CPU time: 1613
+on 2 thread:
+elapsed wall clock time time: 159876ms.
+elapsed CPU time: 1054
+on 3 thread:
+elapsed wall clock time time: 118532ms.
+elapsed CPU time: 900
+on 4 thread:
+elapsed wall clock time time: 90943.8ms.
+elapsed CPU time: 707
+
+
+experiment 1 with 10% stateful
+on 1 thread:
+elapsed wall clock time time: 283505ms.
+elapsed CPU time: 1648
+on 2 thread:
+elapsed wall clock time time: 173461ms.
+elapsed CPU time: 1181
+on 3 thread:
+elapsed wall clock time time: 121536ms.
+elapsed CPU time: 952
+on 4 thread:
+elapsed wall clock time time: 117576ms.
+elapsed CPU time: 921
+
+
+experiment 1 with 20% stateful
+on 1 thread:
+elapsed wall clock time time: 283120ms.
+elapsed CPU time: 1675
+on 2 thread:
+elapsed wall clock time time: 173917ms.
+elapsed CPU time: 1204
+on 3 thread:
+elapsed wall clock time time: 173099ms.
+elapsed CPU time: 1365
+on 4 thread:
+elapsed wall clock time time: 119720ms.
+elapsed CPU time: 952
+
+
+experiment 1 with 30% stateful
+on 1 thread:
+elapsed wall clock time time: 282643ms.
+elapsed CPU time: 1689
+on 2 thread:
+elapsed wall clock time time: 192759ms.
+elapsed CPU time: 1340
+on 3 thread:
+elapsed wall clock time time: 200246ms.
+elapsed CPU time: 1589
+on 4 thread:
+elapsed wall clock time time: 196241ms.
+elapsed CPU time: 1556
+
+
+experiment 1 with 40% stateful
+on 1 thread:
+elapsed wall clock time time: 282311ms.
+elapsed CPU time: 1688
+on 2 thread:
+elapsed wall clock time time: 283135ms.
+elapsed CPU time: 1973
+on 3 thread:
+elapsed wall clock time time: 285532ms.
+elapsed CPU time: 2270
+on 4 thread:
+elapsed wall clock time time: 284312ms.
+elapsed CPU time: 2260
+
+
+experiment 1 with 60% stateful
+on 1 thread:
+elapsed wall clock time time: 289908ms.
+elapsed CPU time: 1120
+on 2 thread:
+elapsed wall clock time time: 287284ms.
+elapsed CPU time: 1252
+on 3 thread:
+elapsed wall clock time time: 287438ms.
+elapsed CPU time: 1255
+on 4 thread:
+elapsed wall clock time time: 295352ms.
+elapsed CPU time: 889
+
+
+the 5 time running:
+experiment 0 with 0% stateful
+on 1 thread:
+elapsed wall clock time time: 289224ms.
+elapsed CPU time: 1156
+on 2 thread:
+elapsed wall clock time time: 150658ms.
+elapsed CPU time: 752
+on 3 thread:
+elapsed wall clock time time: 102052ms.
+elapsed CPU time: 606
+on 4 thread:
+elapsed wall clock time time: 78997.4ms.
+elapsed CPU time: 549
+
+
+experiment 1 with 5% stateful
+on 1 thread:
+elapsed wall clock time time: 283817ms.
+elapsed CPU time: 1592
+on 2 thread:
+elapsed wall clock time time: 159829ms.
+elapsed CPU time: 1057
+on 3 thread:
+elapsed wall clock time time: 123225ms.
+elapsed CPU time: 936
+on 4 thread:
+elapsed wall clock time time: 91540ms.
+elapsed CPU time: 713
+
+
+experiment 1 with 10% stateful
+on 1 thread:
+elapsed wall clock time time: 283194ms.
+elapsed CPU time: 1647
+on 2 thread:
+elapsed wall clock time time: 173671ms.
+elapsed CPU time: 1183
+on 3 thread:
+elapsed wall clock time time: 120653ms.
+elapsed CPU time: 945
+on 4 thread:
+elapsed wall clock time time: 118799ms.
+elapsed CPU time: 931
+
+
+experiment 1 with 20% stateful
+on 1 thread:
+elapsed wall clock time time: 283006ms.
+elapsed CPU time: 1674
+on 2 thread:
+elapsed wall clock time time: 173521ms.
+elapsed CPU time: 1202
+on 3 thread:
+elapsed wall clock time time: 175799ms.
+elapsed CPU time: 1386
+on 4 thread:
+elapsed wall clock time time: 119619ms.
+elapsed CPU time: 952
+
+
+experiment 1 with 30% stateful
+on 1 thread:
+elapsed wall clock time time: 283080ms.
+elapsed CPU time: 1692
+on 2 thread:
+elapsed wall clock time time: 192548ms.
+elapsed CPU time: 1338
+on 3 thread:
+elapsed wall clock time time: 197745ms.
+elapsed CPU time: 1568
+on 4 thread:
+elapsed wall clock time time: 196091ms.
+elapsed CPU time: 1550
+
+
+experiment 1 with 40% stateful
+on 1 thread:
+elapsed wall clock time time: 282686ms.
+elapsed CPU time: 1690
+on 2 thread:
+elapsed wall clock time time: 282823ms.
+elapsed CPU time: 1970
+on 3 thread:
+elapsed wall clock time time: 286367ms.
+elapsed CPU time: 2277
+on 4 thread:
+elapsed wall clock time time: 286085ms.
+elapsed CPU time: 2275
+
+
+experiment 1 with 60% stateful
+on 1 thread:
+elapsed wall clock time time: 289193ms.
+elapsed CPU time: 1144
+on 2 thread:
+elapsed wall clock time time: 291217ms.
+elapsed CPU time: 1059
+on 3 thread:
+elapsed wall clock time time: 286151ms.
+elapsed CPU time: 1336
+on 4 thread:
+elapsed wall clock time time: 291582ms.
+elapsed CPU time: 1152
+
+
+40120405@ubuntu:~/project$ 
